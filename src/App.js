@@ -1,7 +1,7 @@
 import Header from "./components/Header/header";
 import ResultsTable from "./components/ResultsTable/ResultsTable";
 import UserInput from "./components/UserInput/UserInput";
-console.log("hello");
+// console.log("hello");
 function App() {
   const calculateHandler = (userInput) => {
     // Should be triggered when form is submitted
