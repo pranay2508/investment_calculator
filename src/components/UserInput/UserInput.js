@@ -41,7 +41,7 @@ const UserInput =() =>{
     <div className="input-group">
       <p>
         <label htmlFor="current-savings">Current Savings ($)</label>
-        <input onChange={(event)=>inputchangeHandler('current-saving' , event.target.value)}
+        <input onChange={(event)=>inputchangeHandler('current-savings' , event.target.value)}
         value={userInput['current-savings']}
         type="number" id="current-savings" />
       </p>
